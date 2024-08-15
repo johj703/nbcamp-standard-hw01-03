@@ -1,10 +1,6 @@
-const Content = ({ count, increment }) => {
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={increment}>Increment</button>
-    </div>
-  );
+/* eslint-disable react/prop-types */
+const Content = ({ children }) => {
+  return <main>{children}</main>;
 };
 
 export default Content;
