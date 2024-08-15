@@ -19,7 +19,7 @@ function App() {
         <Counter count={count} increment={increment} />
         <Status />
       </Content>
-      <Footer />
+      <Footer year={2024} />
     </>
   );
 }
