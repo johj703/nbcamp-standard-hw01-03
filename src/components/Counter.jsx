@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 const Counter = ({ count, increment }) => {
   return (
     <div>
       <p>Count: {count}</p>
-      <button onClick={Increment}>Increment</button>
+      <button onClick={increment}>Increment</button>
     </div>
   );
 };
