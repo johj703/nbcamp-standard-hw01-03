@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header title="Counter App" />
       <Content>
         <Counter count={count} increment={increment} />
         <Status />
