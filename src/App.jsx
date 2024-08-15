@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Counter from "./components/Counter";
+import Status from "./components/Status";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Content>
         <Counter count={count} increment={increment} />
+        <Status />
       </Content>
     </>
   );
